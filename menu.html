@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags-->
+        <meta charset="UTF-8">
+        <meta name="description" content="Pizza Corner - Best Italian Pizza | Order the Best Pizzas Online">
+        <meta name="keywords" content="Pizza, Food, Order Pizza, Delicious, Toppings">
+        <meta name="author" content="Velimir Paleksić">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title -->
+        <title>Pizza Corner - Best Italian Pizza</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Oswald&display=swap" rel="stylesheet">
+        
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Java Script -->
+        <script defer src="assets/js/script.js"></script>
+    </head>
+    <body onload="moveContent()">
+
+        <div class="open-menu" style="display: none;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <nav>
+            <div class="container">
+                <a href="index.html" id="logo-container"><img src="assets/img/logo/pizza-corner.jpg"></a>
+                <div class="desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="index.html#about-us">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile">
+                    <a onclick="ToggleMenu()" id="icon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="our-menu">
+            <h1>PIZZA</h1>
+            <hr>
+            <div class="pizza" id="row3">
+                <div class="box">
+                    <img src="assets/img/pizza/capricciosa.jpg" alt="Capricciosa">
+                    <h2>Capricciosa</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pizza/greek.jpg" alt="Capricciosa">
+                    <h2>Greek</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pizza/margarita.jpg" alt="Margarita">
+                    <h2>Margarita</h2>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/pizza/mexicana.jpg" alt="Mexicana">
+                    <h2>Mexicana</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pizza/recommendation.jpg" alt="Our Recommendation">
+                    <h2>Our Recommendation</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pizza/sicilian.jpg" alt="Sicilian">
+                    <h2>Sicilian</h2>
+                </div>
+            </div>
+
+            <br>
+
+            <h1>PANCAKES</h1>
+            <hr>
+            <div class="pancake" id="row3">
+                <div class="box">
+                    <img src="assets/img/pancakes/classic.jpg" alt="Classic">
+                    <h2>Classic</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pancakes/icecream.jpg" alt="Ice Cream">
+                    <h2>Ice Cream</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pancakes/kinder.jpg" alt="Kinder">
+                    <h2>Kinder</h2>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/pancakes/nutela.jpg" alt="Nuttela">
+                    <h2>Nuttela</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pancakes/oreo.jpg" alt="Oreo">
+                    <h2>Oreo</h2>
+                </div>
+                <div class="box">
+                    <img src="assets/img/pancakes/strawberry.jpg" alt="Strawberry">
+                    <h2>Strawberry</h2>
+                </div>
+            </div>
+        </div>        
+
+        <!-- FOOTER -->
+        <footer id="contact">
+            <div class="contact-intro">
+                <h1>CONTACT US</h1>
+                <h5>Have a craving for our delightful pizzas? Place your order today!</h5>
+            </div>
+            <br>
+            <div class="contact-containerF">
+                <div class="links">
+                    <h3>About Us</h3>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>About Us</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Dine-In Restaraunts</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Recruitments</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Franchise</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Property</p></a>
+                </div>
+
+                <div class="links">
+                    <h3>Help & Service</h3>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Contact Us</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Speed Guarantee</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>FAQs & Help</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Opening Hours</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Nutrition & Allergies</p></a>
+                </div>
+
+                <div class="links">
+                    <h3>Our Policies</h3>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Privacy Policy</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Terms and Conditions</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Refund Policy</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Cookies</p></a>
+                    <a target="_blank" href="https://cataas.com/cat/says/Hi!"><p>Locations</p></a>
+                </div>
+            </div>
+            <br><br>
+            <div class="contact-intro">
+                <h1>ANY FURTHER QUESTIONS?</h1>
+                <h5>Feel free to reach out to our friendly team for any inquiries or assistance you need.</h5>
+            </div>
+            <br><br>
+            <div class="contact-containerS">
+                <div class="contact-info">
+                    <div class="contact-us">
+                        <div class="address" id="box">
+                            <div class="name">
+                                <i class='fa fa-map-pin'></i>
+                                <h3>ADDRESS</h3>
+                            </div>
+                            <p><a target="_blank" href="https://www.google.com/maps/">123 Street</a></p>
+                        </div>
+                        <div class="phone" id="box">
+                            <div class="name">
+                                <i class='fa fa-phone'></i>
+                                <h3>PHONE</h3>
+                            </div>
+                            <p><a href="tel:+38765111777">+000 000 000</a></p>
+                        </div>
+                        <div class="email" id="box">
+                            <div class="name">
+                                <i class='fas fa-mail-bulk'></i>
+                                <h3>EMAIL</h3>
+                            </div>
+                            <p><a href="mailto:example@mail.com">example@mail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="contact-form">
+                    <form action='javascript:alert("This website is for Education Purposes only!")'>
+                        <label><span class="required">*</span> First & Last Name</label>
+                        <input type="text" placeholder="Enter name" required><br>
+    
+                        <label><span class="required">*</span> E-Mail</label>
+                        <input type="text" placeholder="Enter e-mail" required><br>
+    
+                        <label><span class="required">*</span> Message</label>
+                        <textarea rows="6" type="text" placeholder="Enter your message" required></textarea><br>
+
+                        <input type="submit" value="Submit"></input>
+                    </form>
+                </div>
+
+            </div>
+            <br>
+            <div class="credits">
+                <p>
+                    © 2023 Velimir Paleksić. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
