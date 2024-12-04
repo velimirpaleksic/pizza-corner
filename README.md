@@ -1,1 +1,1 @@
-[Site](https://velimirpaleksic.github.io/pizza-corner/)
+[Website](https://velimirpaleksic.github.io/pizza-corner/)
